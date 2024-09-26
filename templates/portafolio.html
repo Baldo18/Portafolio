@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio Web</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Estilos personalizados -->
+   <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+  <!-- Menú de navegación -->
+  <nav class="navbar navbar-expand-lg shadow-sm rounded-corner">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Mi Portafolio</a>
+      <button class="navbar-toggler menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon menu"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Sobre mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Sección de presentación -->
+  <section class="container my-5 presentation-section shadow-sm">
+    <div class="row">
+      <div class="col-md-8">
+        <h1>Hola, soy Baldo Sanchez Vasquez</h1>
+        <p>Soy estudiante de la carrera de Ingeniería en Sistemas Computacionales.
+           Me apasiona crear soluciones eficientes y atractivas. Además, 
+           participé en el Congreso del Programa Delfín, edición XIX.
+        </p>
+      </div>
+      <div class="col-md-4 text-center">
+        <img src="../static/img/baldo.jpeg" class="img-fluid rounded-corner" alt="Mi Fotografía">
+      </div>
+    </div>
+  </section>
+
+  <!-- Carrusel de reconocimientos -->
+  <section class="container my-5">
+    <h2 class="text-center">Reconocimientos y certificación</h2>
+    <div id="carouselReconocimientos" class="carousel slide shadow-sm rounded-corner" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../static/img/delfin-victp24-constancia-estudiante-ID17314_page-0001.jpg" class="d-block w-100" alt="Reconocimiento 1">
+        </div>
+        <div class="carousel-item">
+          <img src="../static/img/cisco certification_page-0001.jpg" class="d-block w-100" alt="Reconocimiento 2">
+        </div>
+        <div class="carousel-item">
+          <img src="../static/img/delfin-victp24-reconocimientocongresista-estudiante-ID17314_page-0001.jpg" class="d-block w-100" alt="Reconocimiento 3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselReconocimientos" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselReconocimientos" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Sección de proyectos -->
+  <section id="projects" class="container my-5">
+    <h2 class="text-center">Participación en</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card shadow-sm mb-3">
+          <img src="../static/img/delfin_exposicion.jpeg" class="card-img-top rounded-corner" alt="Proyecto 1">
+          <div class="card-body">
+            <h5 class="card-title">Creación de una IA para la detección de tizón temprano y tizón tardío en plantas de papa.</h5>
+            <p class="card-text">Proyecto expuesto en el Congreso del Programa Delfín 2024, edición XIX.</p>
+            <div class="text-center">
+              <a href="#" class="btn btn-primary custom-primary" tabindex="-1" role="button" aria-disabled="true">Ver resultados obtenidos</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm mb-3">
+          <img src="../static/img/rockstar_idol.jpg" class="card-img-top rounded-corner" alt="Proyecto 2">
+          <div class="card-body">
+            <h5 class="card-title">Creación de minijuegos para el juego Rockstar Idol.</h5>
+            <p class="card-text">
+              Creación de minijuegos para el juego Rockstar Idol para PanditaStudio.
+            </p>
+            <div class="text-center">
+              <a href="https://panditastudio.itch.io/rockstar-idol" class="btn btn-primary custom-primary" tabindex="-1" role="button" aria-disabled="true">
+                Visitar pagina del juego
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-smmb-3">
+          <img src="../static/img/happy_birthday_mom.png" class="card-img-top rounded-corner" alt="Proyecto 3">
+          <div class="card-body">
+            <h5 class="card-title">Monarca Game JAM 2023</h5>
+            <p class="card-text">Participación en la Monarca JAM con Pandita Studio en el desarrollo del videojuego Happy Birthday Mom.
+            </p>
+            <div class="text-center">
+              <a href="https://itch.io/jam/monarca-game-jam-2023" class="btn btn-primary custom-primary" tabindex="-1" role="button" aria-disabled="true">Ver resultados obtenidos</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="container shadow-sm">
+    <p>Contacto: baldo15sv@gmail.com | Tel: 7121489293</p>
+    <p>© 2024 Mi Portafolio. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- Bootstrap 5 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

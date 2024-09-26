@@ -1,0 +1,89 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F4F4F4; /* Fondo general */
+    color: #2C3E50; /* Texto general */
+}
+
+/* Menú más abajo */
+.navbar {
+    background-color: #1F3A93;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: #FFFFFF; /* Texto en blanco */
+}
+
+.navbar .nav-link:hover {
+  color: #F1C40F; /* Color de acento al pasar el cursor */
+}
+
+.presentation-section {
+    background-color: #FFFFFF; /* Fondo blanco */
+    border-radius: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 40px;
+}
+
+.presentation-section h1{
+    font-size: 4em;
+}
+
+.presentation-section p{
+    font-size: 1.2em;
+}
+
+/* Bordes redondeados */
+.rounded-corner {
+    border-radius: 20px;
+}
+
+/* Carrusel redondeado */
+.carousel-inner img {
+    border-radius: 20px;
+    max-height: 400px; 
+    width: auto; 
+    object-fit: contain; 
+    margin: 0 auto;
+}
+
+/* Footer personalizado */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+/* Sección de presentación con bordes redondeados */
+.presentation-section {
+    padding: 40px;
+    background-color: #f8f9fa;
+    border-radius: 20px;
+}
+
+.presentation-section img {
+    border-radius: 20px;
+    max-height: 200px; /* Ajusta esta altura según lo que necesites */
+    max-height: 300px;
+    height: auto;
+    width: auto; /* Mantener la proporción de la imagen */
+    object-fit: contain; /* Asegura que la imagen no se distorsione */
+    margin: 0 auto;
+}
+
+/* Tarjetas de proyectos redondeadas */
+.card {
+    border-radius: 20px;
+}
+
+
+
+#projects .custom-primary{
+    background-color: #1F3A93;
+}
